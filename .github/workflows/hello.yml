@@ -1,0 +1,11 @@
+name: Hello World Example
+
+on:
+  workflo_dispatch;
+
+job:
+  hello_world_job:
+    run-on: ubuntu-latesr
+    steps:
+     - name: Hello World Step
+       run: echo 'Hello World
